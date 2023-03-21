@@ -1,4 +1,12 @@
 h1 {
-    color: rgb(156, 248, 248);
-    background-color: black;
+    color: #f1c5e7;
+    background-color: #000000;
+}
+h2 {
+    color: #f1c5e7;
+    background-color: #000000;
+}
+p{
+    color: #ff50fc;
+    background-color: #f0f0f0;
 }
