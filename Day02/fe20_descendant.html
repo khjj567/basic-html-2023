@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>자손/후손 선택자</title>
+    <style>
+        /* #header h1, h2 {
+            color: blueviolet;
+        } 후손선택하는부분*/
+        #header > h1{ color: tomato;}
+        /* 자손선택자 */
+/*  헤더 바로 밑에 있는 후손만 영향을 받는다 */
+        #section > p{color: blue;}
+        #header > #nav >h1 {color: violet;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 class="title"> Lorem </h1>
+            <div id="nav">
+            <h1>Navigation</h1>
+                <div>
+                        <p>
+                            블라블라
+                        </p>
+                        <h2>wkrdms</h2>
+                </div>
+            </div>
+    </div>
+    <div id="section">
+        <h1 class="title">Lorem</h1>
+        <p class="content">블라블라
+
+        </p>
+    </div>
+</body>
+</html>

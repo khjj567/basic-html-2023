@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Id 선택자</title>
+    <style>
+       * { 
+            margin: 0; padding: 0;
+         }
+         #header{
+            width: 1024; margin: 0 auto ;
+            background-color: chartreuse;
+            padding: 5; 
+         }
+         #wrap {
+            width: 1024; margin: 0 auto;
+            overflow: hidden; 
+            padding: 5; 
+         }
+         #aside{
+            width: 190; float: left;
+            background-color:fuchsia;
+            padding: 5;         
+         }
+         #aside{
+            width: 190; float: right;
+            background-color:fuchsia;
+            padding: 5;         
+         }
+         #content{
+            width: 814; float: left;
+            background-color:cyan;
+            padding: 5;          
+        }
+         .summer {
+            color: rgb(0, 68, 255)
+        }
+        .red {
+            color: rgb(255, 0, 0)
+        }
+        .item{
+            font-size: 50;
+            font-style: unsest;
+        }
+        .bound{
+            width: 800;
+            /* border-width: 8 ;
+            border-style: solid;
+            border-color: #000000; */
+            border: 8px solid #808080; /*border : width, style, color 나열해서 설정 할수 있다*/
+            border-style: dashed;/*dashed : 점선*/
+            border-style: double; /*double : 두줄*/
+            border-radius: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>#heard 영역</h1>
+    </div>
+    <div id="wrap">
+        <div>
+            <h2 id="aside">#aside 영역</h2>
+        </div>
+        <div>
+            <h2 id="content">#content 영역</h2>
+        </div>
+    </div>
+    <div id="wrap">
+        <div>
+            <h2 id="aside">#aside 영역</h2>
+        </div>
+        <div>
+            <h2 id="content">#content 영역</h2>
+        </div>
+    <div>
+        <ul><li  class="red"> 딸기</li></ul>
+        <ul><li class="summer">사과</li></ul>
+        <ul><li class="red">배</li></ul>
+        <ul><li class="summer">참외</li></ul>
+    
+        <!-- <span id="span1">1</span>
+        <span id="span2">2</span>
+        <span id="span3">3</span> -->
+
+        <h1 class="item bound">동해물과백두산이</h1>
+        
+    </div>
+</body>
+</html>
