@@ -27,3 +27,9 @@ JAVA 개발자 과정 프론트엔드 리포지토리
     - CSS 3 고급
     - HTML 레이아웃
     - 반응형 웹
+
+
+<b>3일차 레이아웃<b/>
+ <br>
+ <img src = "https://github.com/khjj567/basic-html-2023/blob/main/image/layout.png" width="400">
+
