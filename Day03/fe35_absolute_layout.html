@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>절대위치 레이아웃</title>
+    <style>
+        #container{
+            width: 300px;
+            height: 200px;
+            border: black solid 2px;
+            overflow: hidden;
+            position: relative;
+        }
+        .circle{
+            width: 50px; height: 50px;
+            border-radius: 50% ;
+            background-color: lightgray;
+            position: absolute;
+        }
+        #red{
+            background-color: rgb(149, 211, 171);
+            left: 20px; top: 20px;
+        }
+        #green{
+            background-color: rgb(237, 146, 162);
+            right: 20px; top: 20px;
+        }
+        #blue{
+            background-color: rgb(167, 198, 235);
+            right: 20px; bottom: 20px;
+        }
+        #yellow{
+            background-color: rgb(240, 222, 149);
+            left: 20px; bottom: 20px;
+            ;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lorem ipsum</h2>
+    <div id="container">
+        <div id="red" class="circle">1</div>
+        <div id="green" class="circle">2</div>
+        <div id="blue" class="circle">3</div>
+        <div id="yellow" class="circle">4</div>
+    </div>
+    <h2>Lorem ipsum</h2>
+</body>
+</html>

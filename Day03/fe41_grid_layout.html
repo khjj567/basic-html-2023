@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .item {
+            padding: 10px;
+            background-color: #eeeeee; /*#eee랑 같아*/
+        }
+        .item:nth-child(2n+1){
+            background-color: #bbbbbb;
+        }
+        #wrap {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* fr은 배율 1fr 1fr 1fr : 1대1대1로 설정됨 내용많으면 지 알아서 커짐*/
+            grid-template-rows: 1fr 2fr; /*위에 설정하고 이거 설정하면 설정한 부분의 내용이 일부 잘릴 수 있다*/
+            row-gap: 10px;
+            column-gap: 20px;
+         } 
+
+        </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="item" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam recusandae ipsum. Eveniet nemo quaerat reiciendis temporibus ipsam blanditiis modi molestiae eum velit iusto et consequatur, magnam ab, sed reprehenderit.</div>
+        <div class="item" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam recusandae ipsum. Eveniet nemo quaerat reiciendis temporibus ipsam blanditiis modi molestiae eum velit iusto et consequatur, magnam ab, sed reprehenderit.</div>
+        <div class="item" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam recusandae ipsum. Eveniet nemo quaerat reiciendis temporibus ipsam blanditiis modi molestiae eum velit iusto et consequatur, magnam ab, sed reprehenderit.</div>
+        <div class="item" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam recusandae ipsum. Eveniet nemo quaerat reiciendis temporibus ipsam blanditiis modi molestiae eum velit iusto et consequatur, magnam ab, sed reprehenderit.</div>
+        <div class="item" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam recusandae ipsum. Eveniet nemo quaerat reiciendis temporibus ipsam blanditiis modi molestiae eum velit iusto et consequatur, magnam ab, sed reprehenderit.</div>
+        <div class="item" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam recusandae ipsum. Eveniet nemo quaerat reiciendis temporibus ipsam blanditiis modi molestiae eum velit iusto et consequatur, magnam ab, sed reprehenderit.</div>
+    </div>
+</body>
+</html>
