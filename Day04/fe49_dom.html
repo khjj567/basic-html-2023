@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script>
+    // 2. 페이지가 렌더링이 다 완료되고 나면 실행한다.
+    window.onload = function() {
+        document.querySelector('h1').style.backgroundColor = 'red' ;
+        document.querySelector('h1').style.color = 'white' ;
+        document.querySelector('h1').style.fontSize = '50px' ;
+        document.querySelector('h1').style.fontStyle = 'italic' ;
+
+        var h1Stayle = document.querySelector('h1').style;
+        h1Stayle.backgroundColor = 'blue';
+
+        document.querySelector('p').style.backgroundColor = 'red' ;
+        document.querySelector('p').style.color = 'white' ;
+        document.querySelector('p').style.fontSize = '20px' ;
+        document.querySelector('p').style.fontStyle = 'bold' ;
+
+    }
+
+</script>
+</head>
+<body>
+    <h1>Lorem ipsum, dolor sit amet</h1>
+    <p>Lorem ipsum, dolor sit amet</p>
+
+    <script>
+        /* style 변경은 body태그 마지막에 위치해야한다. */
+        document.querySelector('h1').style.backgroundColor = 'red' ;
+        document.querySelector('h1').style.color = 'white' ;
+        document.querySelector('h1').style.fontSize = '50px' ;
+        document.querySelector('h1').style.fontStyle = 'italic' ;
+
+        var h1Stayle = document.querySelector('h1').style;
+        h1Stayle.backgroundColor = 'blue'; 
+        /* 1. 페이지 렌더링때 같이 실행되는 부분 */
+
+        document.querySelector('p').style.backgroundColor = 'red' ;
+        document.querySelector('p').style.color = 'white' ;
+        document.querySelector('p').style.fontSize = '20px' ;
+        document.querySelector('p').style.fontStyle = 'bold' ;
+        
+    </script>
+</body>
+</html>

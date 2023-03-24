@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        // /* 익명함수 우선순위 */
+        // var fuc = function() { alert('fncA');};
+        // var fuc = function() { alert('fncB');};
+        // // fuc();
+
+        //   /* 익명함수와 일반함수의 우선순위 */
+        // var fuc = function() { alert('fucA');};
+        // function fuc() {alert('fucB');};
+        
+        // fnc();
+        /* 매개변수 */    
+        // function square(x){
+        //     return x * x ;
+        // }
+        // function square(x,y){
+        //     return x * y ;
+        // }
+        // alert(square(4))
+
+         /* 함수를 매개변수로 */
+        function proTentimes(func) {
+            for(var i = 0; i< 3; i++){
+                func(); // 호출한 매개변수로 가져온 함수를 실행!!
+            }
+        }
+
+         var callback = function(){
+            alert('호출');
+         }
+
+         proTentimes(callback);
+
+         proTentimes(function () {console.log('이 내용은 개발툴 콘솔에 찍힙니다');})
+
+         /* 객체 json*/
+         var dried_mango = {
+            name : '7D 건조망고',
+            type : '건조 당절임',
+            ingredient : '망고, 설탕, 메타중아황산나트륨',
+            origin : '필리핀'
+         }
+
+         console.log(dried_mango['name']);
+         console.log(dried_mango['ingredient']);
+         console.log(dried_mango.origin);
+
+         for (var i in dried_mango){
+            console.log(i+ ': ' + dried_mango[i]);
+         }
+
+         /* === */
+         var a = 1;
+         var b = '1';
+
+         alert(a == b); 
+        /* "true" */
+
+        alert(a === b); 
+        /* "false" */
+        /* === : 타입도 같고 값도 같니? */
+         
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

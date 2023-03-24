@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <script src='script/jquery-3.6.4.min.js'></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- script/jquery-3.6.4.min.js 이걸 추가해서 제이쿼리는 쓴다! -->
+    <script>
+        // javascript 전통 이벤트
+            // window.onload = function(){
+            //     alert('Hello, javascript');
+            // }   => 이거랑 같은게 밑에방식
+
+        // jQuery 방식 이벤트
+        $(document).ready(function() {
+            //alert('Hello jqr!!');
+            $('h1').css('background-color', 'black');
+            $('h1').css('color', 'white');
+            // fe50_dom.html 소스와 비교해보면 훨씬 소스가 간결하고 쓰기도 편하다.
+
+            alert( $('meta').attr('charset'));
+            // 'utf-8' 이 나온다
+        });
+        // 즉 완전히 같다. jQuery 방식으로 배워라.
+    </script>
+</head>
+<body>
+    <h1>hi</h1>
+    <h1>hi</h1>
+    <h1>hi</h1>
+    
+</body>
+</html>
