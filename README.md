@@ -41,7 +41,7 @@ JAVA 개발자 과정 프론트엔드 리포지토리
     - jQuery
 4일차 그리드레이아웃 포토갤러리
 
-<img src="?" width="600">
+<img src="https://github.com/khjj567/basic-html-2023/blob/main/image/gallery01.png" width="600">
 
 <br>
 
