@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Frame animation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        window.onload = function(){
+            var count = 0;
+            var running = document.getElementById('running');
+            var frames = [
+                './images_running/0.png','./images_running/1.png',
+                './images_running/2.png','./images_running/3.png',
+                './images_running/4.png','./images_running/5.png',
+                './images_running/6.png','./images_running/7.png',
+                './images_running/8.png','./images_running/9.png',
+                './images_running/10.png','./images_running/11.png',
+                './images_running/12.png','./images_running/13.png',
+                './images_running/14.png'
+            ];
+            setInterval(() => {
+               running.src = frames[count % frames.length] // 15%15 = 0 : 다시 0으로 돌아간다(0.png) : 0~14 인덱스까지 무한반복
+                count += 1;
+            }, 50); // 50ms에 한번씩 이미지를 체인지
+        }
+    </script>
+</head>
+<body>
+    <img id="running">
+</body>
+</html>
