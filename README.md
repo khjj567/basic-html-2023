@@ -72,10 +72,10 @@ JAVA 개발자 과정 프론트엔드 리포지토리
         - Bootstrap
         
 7일차 핀터스트레스트 스타일 클로닝
-<img src="https://github.com/khjj567/basic-html-2023/blob/main/image/portfolio1.png" width="600">
+<img src="https://github.com/khjj567/basic-html-2023/blob/main/image/potfolio1.png" width="600">
 
 Parallax Scrolling web
-<img src="https://github.com/khjj567/basic-html-2023/blob/main/image/portfolio2.png" width="600">
+<img src="https://github.com/khjj567/basic-html-2023/blob/main/image/potfolio2.png" width="600">
 
 
 ## 8일차
