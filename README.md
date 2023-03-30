@@ -40,7 +40,7 @@ JAVA 개발자 과정 프론트엔드 리포지토리
     - Javascript 기초
     - jQuery
 4일차 그리드레이아웃 포토갤러리
-
+<br>
 <img src="https://github.com/khjj567/basic-html-2023/blob/main/image/gallery01.png" width="600">
 
 <br>
@@ -57,6 +57,7 @@ JAVA 개발자 과정 프론트엔드 리포지토리
     - 핀터레스트 스타일 웹페이지 클로닝
 
 6일차 Bootstrap 앨범 클로닝
+<br>
 <img src="https://github.com/khjj567/basic-html-2023/blob/main/image/Album_theme.png" width="600">
 
 ## 7일차
@@ -72,9 +73,11 @@ JAVA 개발자 과정 프론트엔드 리포지토리
         - Bootstrap
         
 7일차 핀터스트레스트 스타일 클로닝
+<br>
 <img src="https://github.com/khjj567/basic-html-2023/blob/main/image/potfolio1.png" width="600">
 
 Parallax Scrolling web
+<br>
 <img src="https://github.com/khjj567/basic-html-2023/blob/main/image/potfolio2.png" width="600">
 
 
