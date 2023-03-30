@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*구글 폰트로 웹사이트 글씨체 변경*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@200;300;400;500;600;700;900&display=swap'); 
+
+/*전체 초기화*/
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*구분선*/
+hr{
+    margin: 1rem 0; /*rem em 은 상대단위*/
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 0.25;
+}
+
+/*폰트 서식*/
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: calc(1.5rem + 1.5vw); /*계산으로 폰트 넓이를 변경*/
+}
+@media screen and (min-width: 1200px){
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+h2{
+    font-size: calc(1.3rem + 0.9vw); /*계산으로 폰트 넓이를 변경*/
+}
+@media screen and (min-width: 1200px){
+    h2{
+        font-size: 2.0rem;
+    }
+}
+
+p{
+    margin-top: 0 ;
+    margin-bottom: 1rem ; /* 1rem = 한 16px정도*/
+}
+
+ol, ul {
+    padding-left: 2rem ;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.footer{
+    padding: 5rem 0; /* 한 위아래 90px정도*/
+}
+
+.contact-section{
+    padding-top: 5rem;
+}
+.contact-section .card{
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;   
+}
+.contact-section .card h4{
+    font-size: 0.8rem;
+    letter-spacing: 0.15rem;
+}
+.contact-section .card hr{
+    opacity: 1;
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+}
+.contact-section .social{
+    margin-top: 5rem;
+}
+.contact-section .social a{
+    text-align: center;
+    width: 3rem; height: 3rem;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255,255,255,0.5);
+}
+.contact-section .social a:hover{
+    color: rgba(255,255,255,0.9);
+}
+.contact-section .social a:active{
+    color: white;
+}
+
+.signup-section{
+    padding: 10rem; /* 160px정도*/
+    background: linear-gradient(to bottom, 
+                rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 75%, #000 100%), 
+                url('../images/bg-signup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.signup-section .form-signup input{
+    box-shadow: 0 0.19rem 0.19rem 0 rgba(0,0,0,0.1) !important;  /* 쉐도우순서: 위 오 아 왼 / !important: 무조건 적용되어야 하는 스타일*/ 
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-size: 80%;
+    letter-spacing: 0.1rem;
+    border: 0;
+}
+
+.btn{
+    box-shadow: 0 0.19rem 0.19rem 0 rgba(0,0,0,0.1) !important;  /* 쉐도우순서: 위 오 아 왼 / !important: 무조건 적용되어야 하는 스타일*/ 
+    padding: 1.25rem 2rem;
+    font-size: 80%;
+    letter-spacing: 0.1rem;
+    border: 0;
+    text-transform: uppercase;
+    --bs-btn-bg: #64a19d;
+    background-color: #64a19d;
+}
+.btn:hover{
+    background-color: #558985;
+}
+.custom-color{
+    color: #64a19d;
+}
