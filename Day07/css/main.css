@@ -1,4 +1,3 @@
-
 /* 초기화 */
 * {
     font-family: 'NanumGothic', 'Malgun Gothic', sans-serif;
@@ -16,15 +15,14 @@ li {
     list-style: none;
 }
 
-/*점 사라짐*/
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
 }
 
-/*헤더영역 스타일*/
+/* 헤더영역 스타일 */
 #main-header {
     height: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(242, 242, 242);
     position: relative;
 }
 
@@ -44,12 +42,12 @@ body {
     height: 40px;
     left: 10px;
     /* margin-left: -100px; */
-    background-image: url('../images/logo.png');
+    background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     text-indent: -9999px;
 }
 
-/*풀다운 메뉴 영역*/
+/* 풀다운 메뉴 영역 */
 .outer-menu {
     float: left;
     width: 100px;
@@ -60,7 +58,7 @@ body {
     text-align: center;
     font-size: small;
     font-weight: bold;
-    z-index: 9999; 
+    z-index: 9999;
 }
 
 .outer-menu:hover {
@@ -86,11 +84,11 @@ body {
     background-color: #e1dfdf;
 }
 
-/*내비게이션 영역*/
+/* navigation 영역 */
 #main-navigation {
     height: 30px;
-    background-color: rgb(255, 255, 255);
-    /* border-top: 1px solid #cfcaca;  */ /*그었던 줄 없앰(주석처리로)*/
+    background-color: #f3f3f3;
+    /* border-top: 1px solid #cfcfcf; */
     /* box-shadow: 1px 3px 3px rgba(34, 25, 25, 0.5); */
 }
 
@@ -111,35 +109,29 @@ body {
 }
 
 #main-navigation>ul>li:hover {
-    background-color: #e2dfdf;
-    border-radius: 2px;
+    background-color: #e1dfdf;
+    border-radius: 3px;
 }
 
-/*input 영역*/
-
+/* input 영역 */
 .form {
-
     position: absolute;
     left: 290px;
 }
 
 .form .fa-search {
-
     position: absolute;
     top: 20px;
     left: 20px;
     color: #9ca3af;
-
 }
 
 .form span {
-
     position: absolute;
     right: 17px;
     top: 13px;
     padding: 2px;
     border-left: 1px solid #d1d5db;
-
 }
 
 .left-pan {
@@ -147,7 +139,6 @@ body {
 }
 
 .left-pan i {
-
     padding-left: 10px;
 }
 
@@ -159,13 +150,11 @@ body {
 }
 
 .form-input:focus {
-
     box-shadow: none;
     border: none;
 }
 
-
-/*카드영역*/
+/* 카드영역 */
 .paper {
     width: 210px;
     margin: 10px 5px;
@@ -177,7 +166,7 @@ body {
 }
 
 .paper-img {
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .paper-description {
@@ -187,14 +176,12 @@ body {
 .paper-content {
     z-index: 1000;
     position: absolute;
-    bottom: 4px;
+    bottom: 2px;
     left: 5px;
-    /* margin: 0 -15px; */
     margin-top: 10px;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-
 }
 
 .paper-link {
@@ -209,69 +196,54 @@ body {
     margin-bottom: 0;
 }
 
-/* 반응형 웹 */
+/* 반응형 웹 영역 */
 #main-section {
     width: 920px;
     margin: 0 auto;
     padding-top: 80px;
 }
 
-/* 한 줄에 2개 카드*/
-@media screen and (max-width: 690px) {
-    #main-section {
-        width: 460px;
-    }
-}
-
-/* 한 줄에 3개 카드*/
-@media screen and (min-width:690px) and (max-width: 920px) {
+/* 한줄에 3개의 카드만 나옴 */
+@media screen and (max-width:920px) {
     #main-section {
         width: 690px;
     }
 }
 
-/* 한 줄에 카드 4개 나옴*/
-@media screen and (min-width:920px) and (max-width: 1150px) {
+/* 한줄에 카드 4개 나옴 */
+@media screen and (min-width:920px) and (max-width:1150px) {
     #main-section {
         width: 920px;
     }
 }
 
-/* 한 줄에 카드 5개 나옴 */
-@media screen and (min-width:1150px) and (max-width: 1380px) {
+/* 한줄에 카드 5개 나옴 */
+@media screen and (min-width:1150px) and (max-width:1380px) {
     #main-section {
         width: 1150px;
     }
 }
 
-/*한 줄에 카드 6개 나옴*/
-@media screen and (min-width: 1380px) and (max-width: 1610px) {
+/* 한줄에 카드 6개 나옴 */
+@media screen and (min-width:1380px) {
     #main-section {
         width: 1380px;
     }
 }
 
-/*한 줄에 카드 7개 나옴*/
-@media screen and (min-width: 1610px) {
-    #main-section {
-        width: 1610px;
-    }
-}
-
-/*라이트박스 영역*/
+/* 라이트박스 영역 */
 #darken-background {
     display: none;
-    background-color: rgba(90, 90, 90, 0.7);
+    background-color: rgba(90, 90, 90, 0.5);
     z-index: 10000;
+    /* 가장위로 올림 */
     overflow-y: scroll;
-
-    /*영역 위치 변경*/
+    /* 영역 위치 변경 */
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 100%;
-
 }
 
 #lightbox {
@@ -284,12 +256,10 @@ body {
     text-align: center;
 }
 
-
 .head-wrapper {
-    width: 100%;
+    width: 100vw;
     position: fixed;
     z-index: 9000;
-
 }
 
 .profile-loc {
