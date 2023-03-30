@@ -88,4 +88,4 @@ Parallax Scrolling web
 
 Grayscale Single Page Template
 <br>
-<img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/potfolio3.png" width="600">
+<img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/potfolio3.gif" width="600">
