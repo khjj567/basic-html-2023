@@ -82,7 +82,7 @@ Parallax Scrolling web
 
 
 ## 8일차
--프론트엔드 학습
+- 프론트엔드 학습
     - Single Page Template
     - SB Admin Page
 
@@ -91,9 +91,9 @@ Grayscale Single Page Template
 <img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/potfoli03.gif" width="600">
 
 ## 9일차
--프론트엔드 학습
+- 프론트엔드 학습
     - SB Admin Page
-        - Bootstrap 5.0 
+        - Bootstrap 
         - Chart.js
         
 9일차 SB Admin Page 중간단계
