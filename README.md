@@ -58,7 +58,7 @@ JAVA 개발자 과정 프론트엔드 리포지토리
 <img src="https://github.com/khjj567/basic-html-2023/blob/main/image/Album_theme.png" width="600">
 
 ## 7일차
-- 프론트엔드 학습
+- 프론트엔드 실습
     - 핀터레스트 스타일 웹페이지 마무리
         - Bootstrap 5.3.0
         - jQuery 3.6.4
@@ -79,7 +79,7 @@ Parallax Scrolling web
 
 
 ## 8일차
-- 프론트엔드 학습
+- 프론트엔드 실습
     - Single Page Template
     - SB Admin Page
 
@@ -88,7 +88,7 @@ Grayscale Single Page Template
 <img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/potfoli03.gif" width="600">
 
 ## 9일차
-- 프론트엔드 학습
+- 프론트엔드 실습
     - SB Admin Page
         - Bootstrap 
         - Chart.js
@@ -96,3 +96,23 @@ Grayscale Single Page Template
 9일차 SB Admin Page 중간단계
 <br>
 <img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/portpolio4_middle.png" width="600">        
+
+## 10일차
+- 프론트엔드 실습
+    - SB Admin Page 마무리
+        - [Simple-datatables.js](https://github.com/fiduswriter/simple-datatables)
+
+SB Admin Page 마무리
+<br>
+<img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/potpolio4.png" width="600">     
+
+## 11일차
+- 프론트엔드 실습
+    -
+
+## 12일차
+- 프론트엔드 실습
+    -
+
+## 13일차
+- 코딩테스트
