@@ -104,7 +104,7 @@ Grayscale Single Page Template
 
 SB Admin Page 마무리
 <br>
-<img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/potpolio4.png" width="600">     
+<img src= "https://github.com/khjj567/basic-html-2023/blob/main/image/potfolio4.png" width="600">     
 
 ## 11일차
 - 프론트엔드 실습
