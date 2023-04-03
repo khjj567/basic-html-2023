@@ -207,6 +207,7 @@ p{
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon{
     font-size: 0.9rem;
     padding-right: 0.5rem;
+    transform: rotate(-90deg); 
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-sidernav-collapse-arrow{
@@ -328,3 +329,27 @@ p{
 #layoutError #layoutError_footer {
     min-width: 0;
 }
+
+/* #layoutAuthentication{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+/*회원가입*/
+#layoutAuthentication{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* flex-grow: 1; */
+}
+
+#layoutAuthentication #layoutAuthentication_content{
+    min-width: 0;
+    flex-grow: 1;
+}
+
+#layoutAuthentication #layoutAuthentication_footer{
+    min-width: 0;
+}
+
