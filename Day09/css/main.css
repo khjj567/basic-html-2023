@@ -314,18 +314,17 @@ p{
 }
 
 /* 애러페이지 */
-
 #layoutError{
     display: flex;
     flex-direction: column;
-    min-width: 100vh;
+    min-height: 100vh;
 }
 
-#layoutError #layoutError_content{
+#layoutError #layoutError_content {
     min-width: 0;
-    flex-grow: 1; /* \ */
+    flex-grow: 1; /* footer위치를 아래로 */
 }
 
-#layoutError #layoutError_footer{
+#layoutError #layoutError_footer {
     min-width: 0;
 }
