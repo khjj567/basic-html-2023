@@ -108,11 +108,16 @@ SB Admin Page 마무리
 
 ## 11일차
 - 프론트엔드 실습
-    -
+    - Dream Jaju : Do it! HTML+CSS+자바스크립트 예제
+    - 자바 연동
+        - Dream Jaju
+        - SB Admin Page
 
 ## 12일차
 - 프론트엔드 실습
-    -
+    - 자바 연동
+        - Dream Jaju에 '회원가입' 만들기
+        - Dream Jaju에 '게시판 글쓰기' 만들기
 
 ## 13일차
 - 코딩테스트
